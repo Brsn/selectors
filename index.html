@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
  
-    <script src="C:\Helio\Projects\CSS Selectors\index.js"></script> 
+     
     <style>
       body {
         background-color:#737373;
@@ -52,14 +52,22 @@
           left: 40%;
           border: 1px solid black;
         }
+        form{text-align: center;
+        }
         </style>
         </head>
   <meta charset="utf-8">
   <title>CC</title>
 
 </head>
-<body onload="promptName()">
+<body> <!--onload="promptName()-->
+<form>
+<input id = "change" type="text" placeholder="change text here">
+<input type="button" value="submit" id="btnsubmit" onclick="submitForm()">
+
+</form>
 <div class="container">
+  
 <p id="one">
 Hello
 </p>
@@ -70,5 +78,6 @@ my name is
 Tyler
 </p>
 </div>
+<script src="index.js"></script>
 </body>
 </html>
